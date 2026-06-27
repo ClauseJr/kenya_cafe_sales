@@ -1,0 +1,34 @@
+ProductID,Category,ProductName,UnitPrice_KES
+PRD-001,Coffee,Espresso,250
+PRD-002,Coffee,Americano,280
+PRD-003,Coffee,Cappuccino,350
+PRD-004,Coffee,Latte,380
+PRD-005,Coffee,Flat White,360
+PRD-006,Coffee,Cold Brew,420
+PRD-007,Coffee,Macchiato,320
+PRD-008,Coffee,Mocha,400
+PRD-009,Coffee,Iced Latte,400
+PRD-010,Coffee,Lungo,270
+PRD-011,Tea,Masala Chai,200
+PRD-012,Tea,Green Tea,180
+PRD-013,Tea,Black Tea,160
+PRD-014,Tea,Mint Tea,190
+PRD-015,Tea,Chamomile,200
+PRD-016,Pastry,Croissant,280
+PRD-017,Pastry,Blueberry Muffin,250
+PRD-018,Pastry,Cinnamon Roll,300
+PRD-019,Pastry,Banana Bread,220
+PRD-020,Pastry,Scone,200
+PRD-021,Food,Club Sandwich,650
+PRD-022,Food,Eggs Benedict,750
+PRD-023,Food,Avocado Toast,580
+PRD-024,Food,Chicken Wrap,600
+PRD-025,Food,Caesar Salad,550
+PRD-026,Juices,Orange Juice,300
+PRD-027,Juices,Passion Fruit,280
+PRD-028,Juices,Mango Juice,290
+PRD-029,Juices,Watermelon Juice,260
+PRD-030,Juices,Green Smoothie,350
+PRD-031,Shakes,Chocolate Shake,450
+PRD-032,Shakes,Vanilla Shake,420
+PRD-033,Shakes,Strawberry Shake,430
