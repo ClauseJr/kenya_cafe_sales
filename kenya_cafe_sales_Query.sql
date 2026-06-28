@@ -33,8 +33,12 @@ GROUP BY town, latitude, longitude
 
 
 SELECT
+	EXTRACT(YEAR FROM saledate) AS year,
+	COUNT(*) AS total_transactions,
 	sum(totalamount_kes) total_revenue
-FROM sales_transaction;
+FROM sales_transaction
+GROUP BY EXTRACT(YEAR FROM saledate)
+ORDER BY year;
 
 --- Checking for Duplicates Values
 SELECT
