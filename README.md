@@ -246,7 +246,7 @@ This dashboard analyzes revenue contribution, customer ratings and branch perfor
 	- Highest Rated — Macchiato (4.25 avg rating)
 	- Avg Discount — 3.35%
 
-Coffee dominates category revenue at 40.68%-KES 2.4M, establishing it as the core revenue driver across both cafe chains, with Food following at KES 1.3M. At product level, Eggs Benedict leads individual revenue performance while Macchiato recorded the highest average customer rating at 4.25, suggesting that customer satisfaction does not always align with revenue volume, a distinction worth noting when making menu decisions.
+Coffee dominates category revenue at 40.68% (KES 2.4M), establishing it as the core revenue driver across both cafe chains, with Food following at KES 1.3M. At product level, Eggs Benedict leads individual revenue performance while Macchiato recorded the highest average customer rating at 4.25, suggesting that customer satisfaction does not always align with revenue volume, a distinction worth noting when making menu decisions.
 
 Product rating distribution skews positively with 41 products rated Good and 40 rated Excellent, indicating strong overall customer satisfaction. Only 3 products fall in the Poor category, presenting a clear opportunity for menu review or product improvement.
 
@@ -283,3 +283,17 @@ Three products received Poor customer ratings while several others fall in the A
 
 ###	*8. Leverage M-Pesa as a Marketing Channel*
 M-Pesa accounts for 39.95% of all transactions making it the dominant payment method. Both chains should explore M-Pesa integrated loyalty programs, Lipa Na M-Pesa promotions and targeted SMS campaigns to engage customers directly through their preferred payment platform, a strategy well aligned with Kenya's mobile-first consumer behavior.
+
+---
+
+## Limitations
+
+This analysis has several limitations that should be acknowledged when interpreting the results:
+
+- The dataset used in this project is synthetically generated and does not reflect real cafe sales behavior. As a result, certain patterns and trends may be simplified or artificially structured, limiting the extent to which findings can be generalized to actual Java House and Art Caffe operations.
+
+- 6.69% of transactions (681 sales) could not be attributed to registered customers due to missing CustomerID records, limiting the depth of customer behavior analysis for this segment.
+
+- The dataset contained significant data quality issues including mixed date formats, inconsistent naming conventions, duplicate rows, negative quantities and missing values across multiple columns, which required extensive cleaning before meaningful analysis could be performed.
+
+- The analysis does not account for external factors such as public holidays, economic conditions, competitor activity or seasonal events that would significantly influence real-world cafe sales performance.
