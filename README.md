@@ -24,12 +24,14 @@ The interactive Power BI dashboard enables us to perform:
 ## Tools Used
 
 **a. Excel**
+
 Excel was used as the initial data inspection tool to:
   - Explore the raw dataset structure and column formats
   - Perform a preliminary review of missing values and inconsistencies
   - Validate data before ingestion into Python for deeper analysis
 
 **b. Python (Jupyter Notebook)**
+
 Python was the primary cleaning and transformation tool used to:
   - Standardize column formats — cafe names, branches, payment methods, towns
   - Handle missing values, duplicates, negative quantities and outliers
@@ -38,6 +40,7 @@ Python was the primary cleaning and transformation tool used to:
   - Export clean datasets for SQL and Power BI ingestion
 
 **c. SQL (PostgreSQL)**
+
 The cleaned data was loaded into PostgreSQL for structured analysis:
   - Designed a star schema with primary and foreign key relationships
   - Wrote analytical queries using subqueries, CTEs and window functions (LAG, RANK, DENSE_RANK)
@@ -45,6 +48,7 @@ The cleaned data was loaded into PostgreSQL for structured analysis:
   - Created views for loyalty segmentation used directly in Power BI
 
 **d. Power BI**
+
 Power BI was used for interactive dashboard development:
   - Built a 4-page dashboard covering Overview, Sales Trends, Customer Analysis and Product Performance
   - Created DAX measures for:
@@ -58,6 +62,7 @@ Power BI was used for interactive dashboard development:
 
 ---
 ## Data Analysis
+
 ```python
 # Load the dataset
 sales = pd.read_csv("Sales_Transactions.csv")
@@ -162,5 +167,5 @@ FROM payment_methods;
 	---	Cash == 29.20%
 	---	Visa == 20.62%
 ```
-
+---
 
