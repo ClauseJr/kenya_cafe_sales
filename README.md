@@ -297,3 +297,17 @@ This analysis has several limitations that should be acknowledged when interpret
 - The dataset contained significant data quality issues including mixed date formats, inconsistent naming conventions, duplicate rows, negative quantities and missing values across multiple columns, which required extensive cleaning before meaningful analysis could be performed.
 
 - The analysis does not account for external factors such as public holidays, economic conditions, competitor activity or seasonal events that would significantly influence real-world cafe sales performance.
+
+---
+## Conclusion
+This project analyzed the key factors influencing sales performance across Java House and Art Caffe using a combination of Excel, Python, SQL and Power BI to explore retail cafe behavior and identify the main drivers of revenue, customer loyalty and product performance across multiple Kenyan towns and branches.
+
+The analysis revealed that cafe sales performance is shaped by multiple interrelated factors rather than a single determinant. Coffee emerged as the dominant revenue category, contributing 40.68% of total sales, while morning hours between 8AM and 10AM consistently drove the highest customer activity, highlighting the importance of product focus and time-based operational planning in the cafe industry. M-Pesa dominated payment transactions, reinforcing Kenya's mobile-first financial behavior as a critical consideration for any retail strategy in the market.
+
+Customer loyalty analysis demonstrated that consistent engagement drives disproportionate value, with Super Loyal and Highly Loyal customers, though representing only 9% of the base maintaining the most reliable revenue contribution over the two-year period. The 6.69% walk-in rate further highlighted an untapped customer acquisition opportunity that both chains could leverage through targeted loyalty enrollment initiatives at the point of sale.
+
+Revenue declined 3.9% year-over-year despite stable transaction volumes, pointing to a drop in average order value rather than a loss of customers a nuanced finding that calls for upselling and bundling strategies rather than customer acquisition campaigns. CBD branch significantly outperformed all other locations, suggesting that geographic concentration remains a challenge that warrants strategic investment in underperforming branches.
+
+Overall, the findings demonstrate that cafe sales performance is a multifaceted outcome shaped by product mix, customer loyalty, time-based demand patterns and branch-level execution. This project highlights the value of data-driven decision making in the retail cafe industry and establishes a foundation for deeper predictive analysis as more real-world data becomes available.
+
+---
