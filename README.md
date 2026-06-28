@@ -311,3 +311,9 @@ Revenue declined 3.9% year-over-year despite stable transaction volumes, pointin
 Overall, the findings demonstrate that cafe sales performance is a multifaceted outcome shaped by product mix, customer loyalty, time-based demand patterns and branch-level execution. This project highlights the value of data-driven decision making in the retail cafe industry and establishes a foundation for deeper predictive analysis as more real-world data becomes available.
 
 ---
+
+## References
+1.	SQL for Data Engineering [Data with Baraa](https://www.youtube.com/watch?v=SSKVgrwhzus)
+2.	Data Analytics with [Chandoo](https://www.youtube.com/results?search_query=chandoo)
+3.	[HackerRank](https://www.hackerrank.com/dashboard)
+4.	[DataCamp](https://app.datacamp.com/)
