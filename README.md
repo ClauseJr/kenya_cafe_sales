@@ -168,6 +168,27 @@ FROM payment_methods;
 	---	Visa == 20.62%
 ```
 ---
+## Project Dashboards
+The project includes interactive Power BI dashboards designed to analyze Kenyan cafe chains (Java House and Art Caffe) from multiple perspectives, including trend analysis, customer loyalty and segmentation, and performance analysis.
+
+
+### Page 1 - Overview Dashboard
+This dashboard provides a high-level summary of cafe sales performance across Java House and Art Caffe from January 2023 to December 2024.
+
+	Key KPIs:
+	- Total Revenue — KES 5.99M (↓ 3.9% vs prior year)
+	- Total Transactions — 10.18K (↑ 0.1% vs prior year)
+	- Average Order Value — KES 588 (↓ 4.1% vs prior year)
+	- Active Customers — 500 registered customers
+
+Overall revenue stood at KES 5.99M, declining 3.9% year-over-year despite transaction volumes remaining virtually flat at 10.18K, suggesting customers visited at the same frequency but spent less per order, with average order value dropping 4.1% to KES 588. This points to a potential shift in customer purchasing behavior worth monitoring.
+
+Coffee remains the backbone of revenue at 40.68%, reinforcing its role as the core product category for both chains. M-Pesa dominates payment transactions, consistent with Kenya's mobile-first financial landscape. The CBD branch significantly outperforms all others in revenue, indicating a concentration of high-value customers in urban Nairobi.
+
+Morning hours between 8AM and 10AM represent the peak trading window, presenting an opportunity for targeted promotions and staffing optimization during that period.
+
+This dashboard serves as an executive summary, enabling stakeholders to quickly assess overall business health and identify areas requiring strategic attention.
+
 <img width="634" height="358" alt="OVERVIEW DASHBOARD" src="https://github.com/user-attachments/assets/3e502ba6-2951-48d7-8533-99e169076f97" />
 
 <img width="635" height="358" alt="SALES TREND DASHBOARD" src="https://github.com/user-attachments/assets/2011d06d-ce74-4c83-b6e0-0ca4545ee5c6" />
