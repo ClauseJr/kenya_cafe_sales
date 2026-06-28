@@ -215,6 +215,25 @@ This dashboard equips business managers with the temporal intelligence needed to
 
 <img width="635" height="358" alt="SALES TREND DASHBOARD" src="https://github.com/user-attachments/assets/2011d06d-ce74-4c83-b6e0-0ca4545ee5c6" />
 
+###	Page 3 - Customer Analysis
+
+This dashboard presents a comprehensive analysis of customer behavior, loyalty patterns and segmentation across all registered customers and branches, providing actionable intelligence for customer retention and acquisition strategies.
+
+	Key KPIs:
+	- Active Customers — 500 registered
+	- Walk-in Sales — 681 anonymous transactions (6.69%)
+	- Avg Visits per Customer — 20.37
+
+Of the 500 registered customers, all maintained active transaction records across the two-year period, averaging 20.37 visits per customer, a strong indicator of habitual cafe engagement. However, 681 transactions representing 6.69% of total sales could not be attributed to registered customers, highlighting a walk-in segment that presents a significant opportunity for loyalty program enrollment and customer data capture.
+
+Loyalty segmentation based on consecutive monthly visits reveals a healthy distribution across tiers. The majority of customers fall within the Regular and Occasional segments at 58.4% and 32.6% respectively, while Highly Loyal and Super Loyal customers collectively account for approximately 9% of the customer base. Despite being a small group, these high-frequency customers represent disproportionate revenue value and should be prioritized for retention incentives and personalized engagement.
+
+The top performing customer, Cynthia Abubakar (CUST-0314) from Eldoret, recorded 17 consecutive months of visits, the highest loyalty streak in the entire dataset, followed closely by Aisha Mutua from Nairobi with 16 consecutive months. This level of consistency across different towns demonstrates that customer loyalty is not limited to urban centers but is distributed across multiple Kenyan regions.
+
+CBD branch dominates customer concentration with 497 customers, significantly ahead of Westlands at 108 and Kilimani at 87, reinforcing the urban Nairobi market as the primary customer base. Food commands the highest average order value at KES 1,073 per transaction, followed by Shakes at KES 761 and Coffee at KES 601, suggesting that food pairing with beverages is a key revenue driver worth promoting.
+
+This dashboard empowers marketing and customer success teams to identify high-value customers, design targeted loyalty campaigns and develop strategies to convert anonymous walk-in customers into registered members of the loyalty program.
+
 <img width="635" height="357" alt="CUSTOMERS DASHBOARD" src="https://github.com/user-attachments/assets/2057957e-19e3-426f-8dd4-d705d169506b" />
 
 <img width="634" height="358" alt="PRODUCTS DASHBOARD" src="https://github.com/user-attachments/assets/9c9d804d-decc-4c2f-9f59-0f77ce42fa21" />
