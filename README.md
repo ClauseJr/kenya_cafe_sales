@@ -168,4 +168,14 @@ FROM payment_methods;
 	---	Visa == 20.62%
 ```
 ---
+<img width="635" height="358" alt="OVERVIEW DASHBOARD" src="https://github.com/user-attachments/assets/0ac61d1c-77cc-424e-9566-2b63412392e9" />
+
+<img width="635" height="358" alt="SALES TREND DASHBOARD" src="https://github.com/user-attachments/assets/2011d06d-ce74-4c83-b6e0-0ca4545ee5c6" />
+
+<img width="635" height="357" alt="CUSTOMERS DASHBOARD" src="https://github.com/user-attachments/assets/2057957e-19e3-426f-8dd4-d705d169506b" />
+
+<img width="634" height="358" alt="PRODUCTS DASHBOARD" src="https://github.com/user-attachments/assets/9c9d804d-decc-4c2f-9f59-0f77ce42fa21" />
+
+
+
 
