@@ -246,7 +246,7 @@ This dashboard analyzes revenue contribution, customer ratings and branch perfor
 	- Highest Rated — Macchiato (4.25 avg rating)
 	- Avg Discount — 3.35%
 
-Coffee dominates category revenue at 40.68% — KES 2.4M, establishing it as the core revenue driver across both cafe chains, with Food following at KES 1.3M. At product level, Eggs Benedict leads individual revenue performance while Macchiato recorded the highest average customer rating at 4.25, suggesting that customer satisfaction does not always align with revenue volume, a distinction worth noting when making menu decisions.
+Coffee dominates category revenue at 40.68%-KES 2.4M, establishing it as the core revenue driver across both cafe chains, with Food following at KES 1.3M. At product level, Eggs Benedict leads individual revenue performance while Macchiato recorded the highest average customer rating at 4.25, suggesting that customer satisfaction does not always align with revenue volume, a distinction worth noting when making menu decisions.
 
 Product rating distribution skews positively with 41 products rated Good and 40 rated Excellent, indicating strong overall customer satisfaction. Only 3 products fall in the Poor category, presenting a clear opportunity for menu review or product improvement.
 
