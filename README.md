@@ -256,6 +256,30 @@ This dashboard equips product and operations teams with the insights needed to o
 
 <img width="634" height="358" alt="PRODUCTS DASHBOARD" src="https://github.com/user-attachments/assets/9c9d804d-decc-4c2f-9f59-0f77ce42fa21" />
 
+---
+## Recommendations
+Based on the analysis of Kenya Cafe Sales data across Java House and Art Caffe from January 2023 to December 2024, the following recommendations are proposed to guide strategic decision making and improve overall business performance.
 
+###	*1. Address the Decline in Average Order Value*
+Despite stable transaction volumes, average order value dropped 4.1% in 2024. Both cafe chains should explore upselling strategies such as combo meal promotions, product bundling and loyalty-based discounts to encourage customers to spend more per visit rather than simply visiting more frequently.
 
+###	*2. Convert Walk-in Customers into Registered Members*
+6.69% of transactions — representing 681 sales — came from anonymous walk-in customers with no loyalty account. Implementing a simple point-of-sale sign-up incentive such as a free beverage or discount on first registered purchase could convert this segment into trackable, retained customers — directly improving customer data quality and loyalty program reach.
 
+###	*3. Investigate Mid-Year Revenue Volatility*
+June 2024 recorded the sharpest monthly decline at -16.05% while July 2024 rebounded strongly at +28.58%. This level of volatility warrants further investigation into operational, seasonal or external factors driving these swings, and the development of contingency promotions to stabilize revenue during historically weak months.
+
+###	*4. Prioritize and Reward Super Loyal Customers*
+Only 9% of customers fall within the Highly Loyal and Super Loyal segments yet they represent the most consistent revenue contributors. Introducing exclusive rewards, early access to new menu items or personalized offers for this group would strengthen retention and encourage other customers to aspire to higher loyalty tiers.
+
+###	*5. Optimize Staffing and Promotions Around Peak Hours*
+Morning hours between 8AM and 10AM consistently generate the highest revenue at KES 1.97M. Cafe management should ensure optimal staffing levels during this window while introducing targeted morning promotions such as breakfast combos to maximize revenue during peak demand periods.
+
+###	*6. Expand Beyond CBD Concentration*
+CBD branch dominates across all metrics — revenue, customers and transactions — while branches like Karen, Lavington and Upperhill significantly underperform. Strategic investment in marketing, menu variety and customer experience improvements at lower performing branches could unlock untapped revenue potential across other Nairobi neighborhoods and upcountry towns.
+
+###	*7. Review and Improve Underperforming Products*
+Three products received Poor customer ratings while several others fall in the Average category. A structured menu review focusing on recipe improvement, presentation or pricing adjustment for these products would improve overall customer satisfaction scores and protect brand reputation across both chains.
+
+###	*8. Leverage M-Pesa as a Marketing Channel*
+M-Pesa accounts for 39.95% of all transactions making it the dominant payment method. Both chains should explore M-Pesa integrated loyalty programs, Lipa Na M-Pesa promotions and targeted SMS campaigns to engage customers directly through their preferred payment platform — a strategy well aligned with Kenya's mobile-first consumer behavior.
