@@ -213,7 +213,8 @@ M-Pesa accounted for the highest transaction volume at 39.95%, reinforcing its d
 
 This dashboard equips business managers with the temporal intelligence needed to optimize staffing, plan promotions and align inventory management with peak demand periods.
 
-<img width="635" height="358" alt="SALES TREND DASHBOARD" src="https://github.com/user-attachments/assets/2011d06d-ce74-4c83-b6e0-0ca4545ee5c6" />
+<img width="634" height="359" alt="SALES TREND DASHBOARD" src="https://github.com/user-attachments/assets/d8304410-255b-47ef-8314-53462de88e69" />
+
 
 ###	Page 3 - Customer Analysis
 
@@ -254,7 +255,7 @@ CBD branch significantly outperforms all others with 497 customers, 7,469 transa
 
 This dashboard equips product and operations teams with the insights needed to optimize the menu, address underperforming products and replicate the success of top performing branches.
 
-<img width="634" height="358" alt="PRODUCTS DASHBOARD" src="https://github.com/user-attachments/assets/9c9d804d-decc-4c2f-9f59-0f77ce42fa21" />
+<img width="635" height="358" alt="PRODUCTS DASHBOARD" src="https://github.com/user-attachments/assets/0821b1d7-b4c6-495c-bdf8-6aaabe68cb0a" />
 
 ---
 ## Recommendations
