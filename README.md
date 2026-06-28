@@ -191,6 +191,28 @@ This dashboard serves as an executive summary, enabling stakeholders to quickly 
 
 <img width="634" height="358" alt="OVERVIEW DASHBOARD" src="https://github.com/user-attachments/assets/3e502ba6-2951-48d7-8533-99e169076f97" />
 
+### Page 2 - Sales Trends
+
+This dashboard presents a time intelligence analysis of sales performance across both cafe chains, examining revenue patterns at monthly, weekly and hourly levels to identify peak periods, seasonal behavior and growth trajectories over the 2023–2024 period.
+
+	Key KPIs:
+	- Best Month — July 2024 (+28.58% MoM)
+	- Worst Month — June 2024 (-16.05% MoM)
+	- Best Quarter — Q4 2023 (KES 7.77M)
+	- Peak Hours — 8AM–10AM (Morning rush)
+
+July 2024 emerged as the strongest performing month with a remarkable +28.58% month-over-month growth, while June 2024 recorded the sharpest decline at -16.05% a volatility pattern suggesting possible seasonal factors or operational disruptions worth investigating. 
+
+Q4 2023 stood out as the best performing quarter at KES 7.77M, indicating stronger consumer spending toward the end of the year.
+
+Weekly revenue analysis reveals a relatively consistent pattern across all days, with Sunday leading at KES 0.85M and Wednesday recording the lowest at KES 0.81M, a narrow range that suggests cafe visits are not heavily weekend-dependent, reflecting a loyal base of weekday customers such as office workers and students.
+
+Hourly revenue distribution confirms morning hours between 8AM and 10AM as the dominant trading window, generating KES 1.97M, significantly ahead of afternoon at KES 1.62M, evening at KES 1.36M and night at KES 1.04M. This pattern is consistent with typical cafe consumer behavior driven by morning coffee routines and breakfast orders.
+
+M-Pesa accounted for the highest transaction volume at 39.95%, reinforcing its dominance as the preferred payment method and highlighting the importance of maintaining seamless mobile money integration across all branches.
+
+This dashboard equips business managers with the temporal intelligence needed to optimize staffing, plan promotions and align inventory management with peak demand periods.
+
 <img width="635" height="358" alt="SALES TREND DASHBOARD" src="https://github.com/user-attachments/assets/2011d06d-ce74-4c83-b6e0-0ca4545ee5c6" />
 
 <img width="635" height="357" alt="CUSTOMERS DASHBOARD" src="https://github.com/user-attachments/assets/2057957e-19e3-426f-8dd4-d705d169506b" />
