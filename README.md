@@ -236,6 +236,24 @@ This dashboard empowers marketing and customer success teams to identify high-va
 
 <img width="635" height="357" alt="CUSTOMERS DASHBOARD" src="https://github.com/user-attachments/assets/2057957e-19e3-426f-8dd4-d705d169506b" />
 
+### Page 4 - Products Performance
+
+This dashboard analyzes revenue contribution, customer ratings and branch performance across 33 products spanning 6 categories, providing product-level intelligence to guide menu optimization and pricing decisions.
+
+	Key KPIs:
+	- Top Product — Eggs Benedict (KES 0.31M)
+	- Top Category — Coffee (40.68% of revenue)
+	- Highest Rated — Macchiato (4.25 avg rating)
+	- Avg Discount — 3.35%
+
+Coffee dominates category revenue at 40.68% — KES 2.4M, establishing it as the core revenue driver across both cafe chains, with Food following at KES 1.3M. At product level, Eggs Benedict leads individual revenue performance while Macchiato recorded the highest average customer rating at 4.25, suggesting that customer satisfaction does not always align with revenue volume, a distinction worth noting when making menu decisions.
+
+Product rating distribution skews positively with 41 products rated Good and 40 rated Excellent, indicating strong overall customer satisfaction. Only 3 products fall in the Poor category, presenting a clear opportunity for menu review or product improvement.
+
+CBD branch significantly outperforms all others with 497 customers, 7,469 transactions and KES 4.39M in total revenue, making it the highest performing branch by every measurable metric.
+
+This dashboard equips product and operations teams with the insights needed to optimize the menu, address underperforming products and replicate the success of top performing branches.
+
 <img width="634" height="358" alt="PRODUCTS DASHBOARD" src="https://github.com/user-attachments/assets/9c9d804d-decc-4c2f-9f59-0f77ce42fa21" />
 
 
