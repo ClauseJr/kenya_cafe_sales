@@ -56,4 +56,102 @@ Power BI was used for interactive dashboard development:
   - Implemented slicers for dynamic filtering by Year, Cafe Name, Branch and Category
   - Designed visual storytelling through KPI cards, bar charts, donut charts and trend lines
 
+---
+## Data Analysis
+```python
+# Load the dataset
+sales = pd.read_csv("Sales_Transactions.csv")
+customers = pd.read_csv("Customers.csv")
+products = pd.read_csv("Products.csv")
+staff = pd.read_csv("Staffs.csv")
+```
+```sql
+--- PRODUCTS RATING BY CUSTOMERS
+
+WITH products_rating AS(
+	SELECT
+		p.productid,
+		p.productname,
+		p.category,
+		SUM(s.totalamount_kes) AS total_revenue,
+		COUNT(*) total_orders,
+		ROUND(AVG(s.rating),2) avg_rating
+	FROM sales_transaction s
+	JOIN products p
+		ON s.productid = p.productid
+	WHERE s.rating > 0
+	GROUP BY p.productid, p.productname, p.category
+)
+SELECT
+	productid,
+	productname,
+	category,
+	total_revenue,
+	total_orders,
+	avg_rating,
+	CASE
+		WHEN avg_rating >= 4.5 THEN 'Excellent'
+		WHEN avg_rating >= 3.5 THEN 'Good'
+		WHEN avg_rating >= 2.5 THEN 'Average'
+		ELSE 'Poor'
+	END AS products_seg
+FROM products_rating
+ORDER BY avg_rating DESC;
+```
+```sql
+--- MONTH OVER MONTH REVENUE GROWTH
+WITH sales_growth_rate AS(
+	SELECT
+		EXTRACT(YEAR FROM saledate) AS year,
+		TO_CHAR(saledate, 'Mon') AS month_name,
+		EXTRACT(MONTH FROM saledate) AS month_num,
+		SUM(totalamount_kes) AS total_revenue
+	FROM sales_transaction
+	GROUP BY 
+		EXTRACT(YEAR FROM saledate),
+		TO_CHAR(saledate, 'Mon'), 
+		EXTRACT(MONTH FROM saledate)
+	ORDER BY month_num
+)
+SELECT
+	year,
+	month_name,
+	month_num,
+	total_revenue,
+	LAG(total_revenue) OVER(ORDER BY year, month_num) prev_month_revenue,
+	ROUND(
+	((total_revenue - LAG(total_revenue) OVER(ORDER BY year, month_num)) /
+	LAG(total_revenue) OVER(ORDER BY year, month_num))::numeric
+	* 100, 2
+	) AS growth_rate_pct
+	
+FROM sales_growth_rate;
+--- summaries:
+--- Best month == July 2024 at +28.58%
+--- Worst month == June 2024 at -16.05%
+--- Most consistent growth == May-June 2023
+--- Biggest spike == March 2024 at +18.67%
+```
+```sql
+WITH payment_methods AS(
+	SELECT
+		paymentmethod,
+		COUNT(*) AS total_sales,
+		SUM(totalamount_kes) total_revenue
+	FROM sales_transaction
+	GROUP BY paymentmethod
+	ORDER BY total_revenue DESC
+)
+SELECT
+	paymentmethod,
+	total_sales,
+	total_revenue,
+	ROUND((total_revenue / SUM(total_revenue) OVER())::numeric * 100, 2) payment_rate
+FROM payment_methods;
+--- The top 3 most preffered modes of payment by customers are:
+	---	Mpesa == 39.95%
+	---	Cash == 29.20%
+	---	Visa == 20.62%
+```
+
 
