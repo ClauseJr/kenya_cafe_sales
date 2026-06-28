@@ -22,44 +22,38 @@ The interactive Power BI dashboard enables us to perform:
 
 ---
 ## Tools Used
-a. Excel
 
-Excel was used as the initial data preparation tool to:
-  -  Clean and standardize column formats (texts, numerical fields).
-  -  Handle missing, duplicates and inconsistent values.
-  -  Validate data integrity.
+**a. Excel**
+Excel was used as the initial data inspection tool to:
+  - Explore the raw dataset structure and column formats
+  - Perform a preliminary review of missing values and inconsistencies
+  - Validate data before ingestion into Python for deeper analysis
 
-This step was used for light-weight data preparations before ingestion into notebook for heavy analysis
+**b. Python (Jupyter Notebook)**
+Python was the primary cleaning and transformation tool used to:
+  - Standardize column formats — cafe names, branches, payment methods, towns
+  - Handle missing values, duplicates, negative quantities and outliers
+  - Engineer new features — TimeOfDay, Quarter, MonthName, DayOfWeek
+  - Perform Exploratory Data Analysis (EDA)
+  - Export clean datasets for SQL and Power BI ingestion
 
-b.  Python (Jupyter Notebook)
+**c. SQL (PostgreSQL)**
+The cleaned data was loaded into PostgreSQL for structured analysis:
+  - Designed a star schema with primary and foreign key relationships
+  - Wrote analytical queries using subqueries, CTEs and window functions (LAG, RANK, DENSE_RANK)
+  - Performed revenue trend analysis, customer segmentation and product performance queries
+  - Created views for loyalty segmentation used directly in Power BI
 
-The data was loaded into jupyter notebook, to help in:
-  -  Dataset cleaning and standardizing columns formarts i.e branches, towns
-  -  Handling inconsistency, duplicates and missing data sections
-  -  Data transformation and preprocessing
-  -  Explanatory data analysis(EDA)
-  -  Validation of data for integrity before performing descriptive analysis
-
-c. SQL(PostgreSQL)
-
-The data was intergrated into PostgreSQl for SQL analysis and querying, to help in:
-  -  Data extraction and Performing structured analysis
-  -  Explanatory analysis, Descriptive analysis and Predictive preparation
-  -  Validation of data for integrity before visualization
-
-d. Power BI
-
-Within Power BI:
-  -  Creation of custom columns and conditional columns for data segmentation
-  -  DAX measures were created for the following KPIs:
-      -  Total Revenue
-      -  Total Transactions
-      -  Total Active Customers
-      -  Growth Rate
-      -  Average Order Value
-  -  Visual storytelling through charts and KPIs
-  -  Enabling stakeholder interactions and decision-making
-
-Slicers were implemented for dynamic analysis, using Gender slicers.
+**d. Power BI**
+Power BI was used for interactive dashboard development:
+  - Built a 4-page dashboard covering Overview, Sales Trends, Customer Analysis and Product Performance
+  - Created DAX measures for:
+    - Total Revenue
+    - Total Transactions
+    - Active Customers
+    - Average Order Value
+    - YoY Growth Rate
+  - Implemented slicers for dynamic filtering by Year, Cafe Name, Branch and Category
+  - Designed visual storytelling through KPI cards, bar charts, donut charts and trend lines
 
 
