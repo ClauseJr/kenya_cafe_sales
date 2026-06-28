@@ -65,6 +65,15 @@ customers = pd.read_csv("Customers.csv")
 products = pd.read_csv("Products.csv")
 staff = pd.read_csv("Staffs.csv")
 ```
+```python
+# Exporting cleaned dataset
+sales.to_csv("cleaned_sales_transaction.csv", index=False)
+customers.to_csv("cleaned_customers_data.csv", index=False)
+products.to_csv('cleaned_products_data.csv', index=False)
+staff.to_csv('cleaned_staff_data.csv', index=False)
+
+print("Cleaned Dataset Exported Successfully")
+```
 ```sql
 --- PRODUCTS RATING BY CUSTOMERS
 
